@@ -1,0 +1,1929 @@
+
+<!-- saved from url=(0131)file:///C:/Users/saint/Documents/Data%20Science/Portfolio/Case%20Study%202%20-%20Bellabeat%20Data%20Analysis/activity_tableSQL.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Activity Table</title>
+</head>
+<body>
+<div style="overflow-x: auto; height: 363px; overflow-y: auto">
+<table border="1" style="font-family: Roboto; border-collapse: collapse">
+<tbody><tr style="font-family: Bahnschrift">
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">#</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">Id</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">Date</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">TotalSteps</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">TotalDistance</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">TrackerDistance</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">LoggedActivitiesDistance</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">VeryActiveDistance</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">ModeratelyActiveDistance</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">LightActiveDistance</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">SedentaryActiveDistance</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">VeryActiveMinutes</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">FairlyActiveMinutes</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">LightlyActiveMinutes</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">SedentaryMinutes</td>
+<td bgcolor="Aliceblue" class="medium" style="padding: 5px">Calories</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">1</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top" style="white-space:nowrap">2016-03-25</td>
+<td class="normal" valign="top">11004</td>
+<td class="normal" valign="top">7.110000134</td>
+<td class="normal" valign="top">7.110000134</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.569999933</td>
+<td class="normal" valign="top">0.460000008</td>
+<td class="normal" valign="top">4.070000172</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">33</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">205</td>
+<td class="normal" valign="top">804</td>
+<td class="normal" valign="top">1819</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">2</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-03-26</td>
+<td class="normal" valign="top">17609</td>
+<td class="normal" valign="top">11.55000019</td>
+<td class="normal" valign="top">11.55000019</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">6.920000076</td>
+<td class="normal" valign="top">0.730000019</td>
+<td class="normal" valign="top">3.910000086</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">89</td>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">274</td>
+<td class="normal" valign="top">588</td>
+<td class="normal" valign="top">2154</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-03-27</td>
+<td class="normal" valign="top">12736</td>
+<td class="normal" valign="top">8.529999733</td>
+<td class="normal" valign="top">8.529999733</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4.659999847</td>
+<td class="normal" valign="top">0.159999996</td>
+<td class="normal" valign="top">3.710000038</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">56</td>
+<td class="normal" valign="top">5</td>
+<td class="normal" valign="top">268</td>
+<td class="normal" valign="top">605</td>
+<td class="normal" valign="top">1944</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">4</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-03-28</td>
+<td class="normal" valign="top">13231</td>
+<td class="normal" valign="top">8.930000305</td>
+<td class="normal" valign="top">8.930000305</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.190000057</td>
+<td class="normal" valign="top">0.790000021</td>
+<td class="normal" valign="top">4.949999809</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">39</td>
+<td class="normal" valign="top">20</td>
+<td class="normal" valign="top">224</td>
+<td class="normal" valign="top">1080</td>
+<td class="normal" valign="top">1932</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">5</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-03-29</td>
+<td class="normal" valign="top">12041</td>
+<td class="normal" valign="top">7.849999905</td>
+<td class="normal" valign="top">7.849999905</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.160000086</td>
+<td class="normal" valign="top">1.090000033</td>
+<td class="normal" valign="top">4.610000134</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">28</td>
+<td class="normal" valign="top">28</td>
+<td class="normal" valign="top">243</td>
+<td class="normal" valign="top">763</td>
+<td class="normal" valign="top">1886</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-03-30</td>
+<td class="normal" valign="top">10970</td>
+<td class="normal" valign="top">7.159999847</td>
+<td class="normal" valign="top">7.159999847</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.359999895</td>
+<td class="normal" valign="top">0.50999999</td>
+<td class="normal" valign="top">4.289999962</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">30</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">223</td>
+<td class="normal" valign="top">1174</td>
+<td class="normal" valign="top">1820</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-03-31</td>
+<td class="normal" valign="top">12256</td>
+<td class="normal" valign="top">7.860000134</td>
+<td class="normal" valign="top">7.860000134</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.289999962</td>
+<td class="normal" valign="top">0.49000001</td>
+<td class="normal" valign="top">5.039999962</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">33</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">239</td>
+<td class="normal" valign="top">820</td>
+<td class="normal" valign="top">1889</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-01</td>
+<td class="normal" valign="top">12262</td>
+<td class="normal" valign="top">7.869999886</td>
+<td class="normal" valign="top">7.869999886</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.319999933</td>
+<td class="normal" valign="top">0.829999983</td>
+<td class="normal" valign="top">3.640000105</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">47</td>
+<td class="normal" valign="top">21</td>
+<td class="normal" valign="top">200</td>
+<td class="normal" valign="top">866</td>
+<td class="normal" valign="top">1868</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">9</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-02</td>
+<td class="normal" valign="top">11248</td>
+<td class="normal" valign="top">7.25</td>
+<td class="normal" valign="top">7.25</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">0.449999988</td>
+<td class="normal" valign="top">3.74000001</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">40</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">244</td>
+<td class="normal" valign="top">636</td>
+<td class="normal" valign="top">1843</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-03</td>
+<td class="normal" valign="top">10016</td>
+<td class="normal" valign="top">6.369999886</td>
+<td class="normal" valign="top">6.369999886</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.910000026</td>
+<td class="normal" valign="top">1.279999971</td>
+<td class="normal" valign="top">4.179999828</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">30</td>
+<td class="normal" valign="top">314</td>
+<td class="normal" valign="top">655</td>
+<td class="normal" valign="top">1850</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-04</td>
+<td class="normal" valign="top">14557</td>
+<td class="normal" valign="top">9.800000191</td>
+<td class="normal" valign="top">9.800000191</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.390000105</td>
+<td class="normal" valign="top">0.699999988</td>
+<td class="normal" valign="top">5.690000057</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">43</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">285</td>
+<td class="normal" valign="top">757</td>
+<td class="normal" valign="top">2030</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-05</td>
+<td class="normal" valign="top">14844</td>
+<td class="normal" valign="top">9.729999542</td>
+<td class="normal" valign="top">9.729999542</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.940000057</td>
+<td class="normal" valign="top">0.75999999</td>
+<td class="normal" valign="top">6.039999962</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">36</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">341</td>
+<td class="normal" valign="top">736</td>
+<td class="normal" valign="top">2083</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-06</td>
+<td class="normal" valign="top">11974</td>
+<td class="normal" valign="top">7.670000076</td>
+<td class="normal" valign="top">7.670000076</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.039999962</td>
+<td class="normal" valign="top">0.479999989</td>
+<td class="normal" valign="top">5.150000095</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">27</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">228</td>
+<td class="normal" valign="top">1173</td>
+<td class="normal" valign="top">1861</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">14</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-07</td>
+<td class="normal" valign="top">10198</td>
+<td class="normal" valign="top">6.440000057</td>
+<td class="normal" valign="top">6.440000057</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.200000048</td>
+<td class="normal" valign="top">0.790000021</td>
+<td class="normal" valign="top">4.449999809</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">20</td>
+<td class="normal" valign="top">195</td>
+<td class="normal" valign="top">1208</td>
+<td class="normal" valign="top">1755</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-08</td>
+<td class="normal" valign="top">12521</td>
+<td class="normal" valign="top">7.940000057</td>
+<td class="normal" valign="top">7.940000057</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.309999943</td>
+<td class="normal" valign="top">0.899999976</td>
+<td class="normal" valign="top">3.74000001</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">46</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">212</td>
+<td class="normal" valign="top">1160</td>
+<td class="normal" valign="top">1895</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">16</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-09</td>
+<td class="normal" valign="top">12432</td>
+<td class="normal" valign="top">8.100000381</td>
+<td class="normal" valign="top">8.100000381</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.589999914</td>
+<td class="normal" valign="top">0.589999974</td>
+<td class="normal" valign="top">4.920000076</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">32</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">248</td>
+<td class="normal" valign="top">738</td>
+<td class="normal" valign="top">1883</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-10</td>
+<td class="normal" valign="top">10057</td>
+<td class="normal" valign="top">6.980000019</td>
+<td class="normal" valign="top">6.980000019</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4</td>
+<td class="normal" valign="top">0.49000001</td>
+<td class="normal" valign="top">2.480000019</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">44</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">168</td>
+<td class="normal" valign="top">737</td>
+<td class="normal" valign="top">1755</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-11</td>
+<td class="normal" valign="top">10990</td>
+<td class="normal" valign="top">7.260000229</td>
+<td class="normal" valign="top">7.260000229</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.039999962</td>
+<td class="normal" valign="top">0.569999993</td>
+<td class="normal" valign="top">4.650000095</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">26</td>
+<td class="normal" valign="top">14</td>
+<td class="normal" valign="top">216</td>
+<td class="normal" valign="top">855</td>
+<td class="normal" valign="top">1811</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">19</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-12</td>
+<td class="normal" valign="top">224</td>
+<td class="normal" valign="top">0.140000001</td>
+<td class="normal" valign="top">0.140000001</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.129999995</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">9</td>
+<td class="normal" valign="top">32</td>
+<td class="normal" valign="top">50</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">20</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-12</td>
+<td class="normal" valign="top">13162</td>
+<td class="normal" valign="top">8.5</td>
+<td class="normal" valign="top">8.5</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.87999999523163</td>
+<td class="normal" valign="top">0.550000011920929</td>
+<td class="normal" valign="top">6.05999994277954</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">25</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">328</td>
+<td class="normal" valign="top">728</td>
+<td class="normal" valign="top">1985</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">21</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-13</td>
+<td class="normal" valign="top">10735</td>
+<td class="normal" valign="top">6.96999979019165</td>
+<td class="normal" valign="top">6.96999979019165</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.57000005245209</td>
+<td class="normal" valign="top">0.689999997615814</td>
+<td class="normal" valign="top">4.71000003814697</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">21</td>
+<td class="normal" valign="top">19</td>
+<td class="normal" valign="top">217</td>
+<td class="normal" valign="top">776</td>
+<td class="normal" valign="top">1797</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-14</td>
+<td class="normal" valign="top">10460</td>
+<td class="normal" valign="top">6.73999977111816</td>
+<td class="normal" valign="top">6.73999977111816</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.44000005722046</td>
+<td class="normal" valign="top">0.400000005960464</td>
+<td class="normal" valign="top">3.91000008583069</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">30</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">181</td>
+<td class="normal" valign="top">1218</td>
+<td class="normal" valign="top">1776</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-15</td>
+<td class="normal" valign="top">9762</td>
+<td class="normal" valign="top">6.28000020980835</td>
+<td class="normal" valign="top">6.28000020980835</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.14000010490417</td>
+<td class="normal" valign="top">1.25999999046326</td>
+<td class="normal" valign="top">2.82999992370605</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">29</td>
+<td class="normal" valign="top">34</td>
+<td class="normal" valign="top">209</td>
+<td class="normal" valign="top">726</td>
+<td class="normal" valign="top">1745</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-16</td>
+<td class="normal" valign="top">12669</td>
+<td class="normal" valign="top">8.15999984741211</td>
+<td class="normal" valign="top">8.15999984741211</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.71000003814697</td>
+<td class="normal" valign="top">0.409999996423721</td>
+<td class="normal" valign="top">5.03999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">36</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">221</td>
+<td class="normal" valign="top">773</td>
+<td class="normal" valign="top">1863</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">25</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-17</td>
+<td class="normal" valign="top">9705</td>
+<td class="normal" valign="top">6.48000001907349</td>
+<td class="normal" valign="top">6.48000001907349</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.19000005722046</td>
+<td class="normal" valign="top">0.779999971389771</td>
+<td class="normal" valign="top">2.50999999046326</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">38</td>
+<td class="normal" valign="top">20</td>
+<td class="normal" valign="top">164</td>
+<td class="normal" valign="top">539</td>
+<td class="normal" valign="top">1728</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">26</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-18</td>
+<td class="normal" valign="top">13019</td>
+<td class="normal" valign="top">8.59000015258789</td>
+<td class="normal" valign="top">8.59000015258789</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.25</td>
+<td class="normal" valign="top">0.639999985694885</td>
+<td class="normal" valign="top">4.71000003814697</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">42</td>
+<td class="normal" valign="top">16</td>
+<td class="normal" valign="top">233</td>
+<td class="normal" valign="top">1149</td>
+<td class="normal" valign="top">1921</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">27</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-19</td>
+<td class="normal" valign="top">15506</td>
+<td class="normal" valign="top">9.88000011444092</td>
+<td class="normal" valign="top">9.88000011444092</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.52999997138977</td>
+<td class="normal" valign="top">1.32000005245209</td>
+<td class="normal" valign="top">5.03000020980835</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">50</td>
+<td class="normal" valign="top">31</td>
+<td class="normal" valign="top">264</td>
+<td class="normal" valign="top">775</td>
+<td class="normal" valign="top">2035</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">28</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-20</td>
+<td class="normal" valign="top">10544</td>
+<td class="normal" valign="top">6.67999982833862</td>
+<td class="normal" valign="top">6.67999982833862</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.96000003814697</td>
+<td class="normal" valign="top">0.479999989271164</td>
+<td class="normal" valign="top">4.23999977111816</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">28</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">205</td>
+<td class="normal" valign="top">818</td>
+<td class="normal" valign="top">1786</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">29</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-21</td>
+<td class="normal" valign="top">9819</td>
+<td class="normal" valign="top">6.34000015258789</td>
+<td class="normal" valign="top">6.34000015258789</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.3400000333786</td>
+<td class="normal" valign="top">0.349999994039536</td>
+<td class="normal" valign="top">4.65000009536743</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">19</td>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">211</td>
+<td class="normal" valign="top">838</td>
+<td class="normal" valign="top">1775</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">30</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-22</td>
+<td class="normal" valign="top">12764</td>
+<td class="normal" valign="top">8.13000011444092</td>
+<td class="normal" valign="top">8.13000011444092</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4.76000022888184</td>
+<td class="normal" valign="top">1.12000000476837</td>
+<td class="normal" valign="top">2.24000000953674</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">66</td>
+<td class="normal" valign="top">27</td>
+<td class="normal" valign="top">130</td>
+<td class="normal" valign="top">1217</td>
+<td class="normal" valign="top">1827</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">31</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-23</td>
+<td class="normal" valign="top">14371</td>
+<td class="normal" valign="top">9.03999996185303</td>
+<td class="normal" valign="top">9.03999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.80999994277954</td>
+<td class="normal" valign="top">0.870000004768372</td>
+<td class="normal" valign="top">5.3600001335144</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">41</td>
+<td class="normal" valign="top">21</td>
+<td class="normal" valign="top">262</td>
+<td class="normal" valign="top">732</td>
+<td class="normal" valign="top">1949</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">32</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-24</td>
+<td class="normal" valign="top">10039</td>
+<td class="normal" valign="top">6.40999984741211</td>
+<td class="normal" valign="top">6.40999984741211</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.92000007629395</td>
+<td class="normal" valign="top">0.209999993443489</td>
+<td class="normal" valign="top">3.27999997138977</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">39</td>
+<td class="normal" valign="top">5</td>
+<td class="normal" valign="top">238</td>
+<td class="normal" valign="top">709</td>
+<td class="normal" valign="top">1788</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">33</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-25</td>
+<td class="normal" valign="top">15355</td>
+<td class="normal" valign="top">9.80000019073486</td>
+<td class="normal" valign="top">9.80000019073486</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">5.28999996185303</td>
+<td class="normal" valign="top">0.569999992847443</td>
+<td class="normal" valign="top">3.94000005722046</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">73</td>
+<td class="normal" valign="top">14</td>
+<td class="normal" valign="top">216</td>
+<td class="normal" valign="top">814</td>
+<td class="normal" valign="top">2013</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">34</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-26</td>
+<td class="normal" valign="top">13755</td>
+<td class="normal" valign="top">8.78999996185303</td>
+<td class="normal" valign="top">8.78999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.32999992370605</td>
+<td class="normal" valign="top">0.920000016689301</td>
+<td class="normal" valign="top">5.53999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">31</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">279</td>
+<td class="normal" valign="top">833</td>
+<td class="normal" valign="top">1970</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">35</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-27</td>
+<td class="normal" valign="top">18134</td>
+<td class="normal" valign="top">12.210000038147</td>
+<td class="normal" valign="top">12.210000038147</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">6.40000009536743</td>
+<td class="normal" valign="top">0.409999996423721</td>
+<td class="normal" valign="top">5.40999984741211</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">78</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">243</td>
+<td class="normal" valign="top">1108</td>
+<td class="normal" valign="top">2159</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">36</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-28</td>
+<td class="normal" valign="top">13154</td>
+<td class="normal" valign="top">8.52999973297119</td>
+<td class="normal" valign="top">8.52999973297119</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.53999996185303</td>
+<td class="normal" valign="top">1.1599999666214</td>
+<td class="normal" valign="top">3.78999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">48</td>
+<td class="normal" valign="top">28</td>
+<td class="normal" valign="top">189</td>
+<td class="normal" valign="top">782</td>
+<td class="normal" valign="top">1898</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">37</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-29</td>
+<td class="normal" valign="top">11181</td>
+<td class="normal" valign="top">7.15000009536743</td>
+<td class="normal" valign="top">7.15000009536743</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.05999994277954</td>
+<td class="normal" valign="top">0.5</td>
+<td class="normal" valign="top">5.57999992370605</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">16</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">243</td>
+<td class="normal" valign="top">815</td>
+<td class="normal" valign="top">1837</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">38</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-04-30</td>
+<td class="normal" valign="top">14673</td>
+<td class="normal" valign="top">9.25</td>
+<td class="normal" valign="top">9.25</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.55999994277954</td>
+<td class="normal" valign="top">1.41999995708466</td>
+<td class="normal" valign="top">4.26999998092651</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">52</td>
+<td class="normal" valign="top">34</td>
+<td class="normal" valign="top">217</td>
+<td class="normal" valign="top">712</td>
+<td class="normal" valign="top">1947</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">39</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-01</td>
+<td class="normal" valign="top">10602</td>
+<td class="normal" valign="top">6.80999994277954</td>
+<td class="normal" valign="top">6.80999994277954</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.28999996185303</td>
+<td class="normal" valign="top">1.60000002384186</td>
+<td class="normal" valign="top">2.92000007629395</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">33</td>
+<td class="normal" valign="top">35</td>
+<td class="normal" valign="top">246</td>
+<td class="normal" valign="top">730</td>
+<td class="normal" valign="top">1820</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">40</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-02</td>
+<td class="normal" valign="top">14727</td>
+<td class="normal" valign="top">9.71000003814697</td>
+<td class="normal" valign="top">9.71000003814697</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.21000003814697</td>
+<td class="normal" valign="top">0.569999992847443</td>
+<td class="normal" valign="top">5.92000007629395</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">41</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">277</td>
+<td class="normal" valign="top">798</td>
+<td class="normal" valign="top">2004</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">41</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-03</td>
+<td class="normal" valign="top">15103</td>
+<td class="normal" valign="top">9.65999984741211</td>
+<td class="normal" valign="top">9.65999984741211</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.73000001907349</td>
+<td class="normal" valign="top">1.04999995231628</td>
+<td class="normal" valign="top">4.88000011444092</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">50</td>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">254</td>
+<td class="normal" valign="top">816</td>
+<td class="normal" valign="top">1990</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">42</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-04</td>
+<td class="normal" valign="top">11100</td>
+<td class="normal" valign="top">7.15000009536743</td>
+<td class="normal" valign="top">7.15000009536743</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.46000003814697</td>
+<td class="normal" valign="top">0.870000004768372</td>
+<td class="normal" valign="top">3.8199999332428</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">36</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">203</td>
+<td class="normal" valign="top">1179</td>
+<td class="normal" valign="top">1819</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">43</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-05</td>
+<td class="normal" valign="top">14070</td>
+<td class="normal" valign="top">8.89999961853027</td>
+<td class="normal" valign="top">8.89999961853027</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.92000007629395</td>
+<td class="normal" valign="top">1.08000004291534</td>
+<td class="normal" valign="top">4.88000011444092</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">45</td>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">250</td>
+<td class="normal" valign="top">857</td>
+<td class="normal" valign="top">1959</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">44</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-06</td>
+<td class="normal" valign="top">12159</td>
+<td class="normal" valign="top">8.02999973297119</td>
+<td class="normal" valign="top">8.02999973297119</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.97000002861023</td>
+<td class="normal" valign="top">0.25</td>
+<td class="normal" valign="top">5.80999994277954</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">289</td>
+<td class="normal" valign="top">754</td>
+<td class="normal" valign="top">1896</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">45</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-07</td>
+<td class="normal" valign="top">11992</td>
+<td class="normal" valign="top">7.71000003814697</td>
+<td class="normal" valign="top">7.71000003814697</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.46000003814697</td>
+<td class="normal" valign="top">2.11999988555908</td>
+<td class="normal" valign="top">3.13000011444092</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">37</td>
+<td class="normal" valign="top">46</td>
+<td class="normal" valign="top">175</td>
+<td class="normal" valign="top">833</td>
+<td class="normal" valign="top">1821</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">46</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-08</td>
+<td class="normal" valign="top">10060</td>
+<td class="normal" valign="top">6.57999992370605</td>
+<td class="normal" valign="top">6.57999992370605</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.52999997138977</td>
+<td class="normal" valign="top">0.319999992847443</td>
+<td class="normal" valign="top">2.73000001907349</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">44</td>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">203</td>
+<td class="normal" valign="top">574</td>
+<td class="normal" valign="top">1740</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">47</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-09</td>
+<td class="normal" valign="top">12022</td>
+<td class="normal" valign="top">7.71999979019165</td>
+<td class="normal" valign="top">7.71999979019165</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.45000004768372</td>
+<td class="normal" valign="top">0.529999971389771</td>
+<td class="normal" valign="top">3.74000000953674</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">46</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">206</td>
+<td class="normal" valign="top">835</td>
+<td class="normal" valign="top">1819</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">48</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-10</td>
+<td class="normal" valign="top">12207</td>
+<td class="normal" valign="top">7.76999998092651</td>
+<td class="normal" valign="top">7.76999998092651</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.34999990463257</td>
+<td class="normal" valign="top">1.1599999666214</td>
+<td class="normal" valign="top">3.25999999046326</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">46</td>
+<td class="normal" valign="top">31</td>
+<td class="normal" valign="top">214</td>
+<td class="normal" valign="top">746</td>
+<td class="normal" valign="top">1859</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">49</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-11</td>
+<td class="normal" valign="top">12770</td>
+<td class="normal" valign="top">8.13000011444092</td>
+<td class="normal" valign="top">8.13000011444092</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.55999994277954</td>
+<td class="normal" valign="top">1.00999999046326</td>
+<td class="normal" valign="top">4.55000019073486</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">36</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">251</td>
+<td class="normal" valign="top">669</td>
+<td class="normal" valign="top">1783</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">50</td>
+<td class="normal" valign="top">1503960366</td>
+<td class="normal" valign="top">2016-05-12</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1440</td>
+<td class="normal" valign="top">0</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">51</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-03-25</td>
+<td class="normal" valign="top">1810</td>
+<td class="normal" valign="top">1.179999948</td>
+<td class="normal" valign="top">1.179999948</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.129999995</td>
+<td class="normal" valign="top">0.01</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">121</td>
+<td class="normal" valign="top">1319</td>
+<td class="normal" valign="top">1373</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">52</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-03-26</td>
+<td class="normal" valign="top">815</td>
+<td class="normal" valign="top">0.529999971</td>
+<td class="normal" valign="top">0.529999971</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.529999971</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">47</td>
+<td class="normal" valign="top">1393</td>
+<td class="normal" valign="top">1264</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">53</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-03-27</td>
+<td class="normal" valign="top">1985</td>
+<td class="normal" valign="top">1.289999962</td>
+<td class="normal" valign="top">1.289999962</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.279999971</td>
+<td class="normal" valign="top">0.01</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">112</td>
+<td class="normal" valign="top">1328</td>
+<td class="normal" valign="top">1350</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">54</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-03-28</td>
+<td class="normal" valign="top">1905</td>
+<td class="normal" valign="top">1.24000001</td>
+<td class="normal" valign="top">1.24000001</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.24000001</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">95</td>
+<td class="normal" valign="top">1345</td>
+<td class="normal" valign="top">1342</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">55</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-03-29</td>
+<td class="normal" valign="top">1552</td>
+<td class="normal" valign="top">1.00999999</td>
+<td class="normal" valign="top">1.00999999</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">66</td>
+<td class="normal" valign="top">1374</td>
+<td class="normal" valign="top">1300</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">56</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-03-30</td>
+<td class="normal" valign="top">1675</td>
+<td class="normal" valign="top">1.090000033</td>
+<td class="normal" valign="top">1.090000033</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.090000033</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">84</td>
+<td class="normal" valign="top">1356</td>
+<td class="normal" valign="top">1313</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">57</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-03-31</td>
+<td class="normal" valign="top">4506</td>
+<td class="normal" valign="top">2.930000067</td>
+<td class="normal" valign="top">2.930000067</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.50999999</td>
+<td class="normal" valign="top">0.270000011</td>
+<td class="normal" valign="top">2.150000095</td>
+<td class="normal" valign="top">0.01</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">4</td>
+<td class="normal" valign="top">144</td>
+<td class="normal" valign="top">1285</td>
+<td class="normal" valign="top">1498</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">58</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-01</td>
+<td class="normal" valign="top">9218</td>
+<td class="normal" valign="top">5.989999771</td>
+<td class="normal" valign="top">5.989999771</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">5.96999979</td>
+<td class="normal" valign="top">0.01</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">221</td>
+<td class="normal" valign="top">1219</td>
+<td class="normal" valign="top">1541</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">59</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-02</td>
+<td class="normal" valign="top">1556</td>
+<td class="normal" valign="top">1.00999999</td>
+<td class="normal" valign="top">1.00999999</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.00999999</td>
+<td class="normal" valign="top">0.01</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">88</td>
+<td class="normal" valign="top">1352</td>
+<td class="normal" valign="top">1327</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">60</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-03</td>
+<td class="normal" valign="top">2910</td>
+<td class="normal" valign="top">1.889999986</td>
+<td class="normal" valign="top">1.889999986</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.879999995</td>
+<td class="normal" valign="top">0.01</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">157</td>
+<td class="normal" valign="top">1283</td>
+<td class="normal" valign="top">1452</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">61</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-04</td>
+<td class="normal" valign="top">18464</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">270</td>
+<td class="normal" valign="top">1170</td>
+<td class="normal" valign="top">1574</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">62</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-05</td>
+<td class="normal" valign="top">1335</td>
+<td class="normal" valign="top">0.870000005</td>
+<td class="normal" valign="top">0.870000005</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.870000005</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">74</td>
+<td class="normal" valign="top">1366</td>
+<td class="normal" valign="top">1308</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">63</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-06</td>
+<td class="normal" valign="top">1004</td>
+<td class="normal" valign="top">0.649999976</td>
+<td class="normal" valign="top">0.649999976</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.649999976</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">55</td>
+<td class="normal" valign="top">1385</td>
+<td class="normal" valign="top">1276</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">64</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-07</td>
+<td class="normal" valign="top">1111</td>
+<td class="normal" valign="top">0.720000029</td>
+<td class="normal" valign="top">0.720000029</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.720000029</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">54</td>
+<td class="normal" valign="top">1386</td>
+<td class="normal" valign="top">1278</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">65</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-08</td>
+<td class="normal" valign="top">6344</td>
+<td class="normal" valign="top">4.119999886</td>
+<td class="normal" valign="top">4.119999886</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4.099999905</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">143</td>
+<td class="normal" valign="top">1297</td>
+<td class="normal" valign="top">1409</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">66</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-09</td>
+<td class="normal" valign="top">3572</td>
+<td class="normal" valign="top">2.319999933</td>
+<td class="normal" valign="top">2.319999933</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.289999962</td>
+<td class="normal" valign="top">0.029999999</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">122</td>
+<td class="normal" valign="top">1318</td>
+<td class="normal" valign="top">1370</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">67</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-10</td>
+<td class="normal" valign="top">3910</td>
+<td class="normal" valign="top">2.539999962</td>
+<td class="normal" valign="top">2.539999962</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.469999999</td>
+<td class="normal" valign="top">0.25</td>
+<td class="normal" valign="top">1.809999943</td>
+<td class="normal" valign="top">0.01</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">186</td>
+<td class="normal" valign="top">1240</td>
+<td class="normal" valign="top">1555</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">68</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-11</td>
+<td class="normal" valign="top">10000</td>
+<td class="normal" valign="top">6.5</td>
+<td class="normal" valign="top">6.5</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">6.5</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">172</td>
+<td class="normal" valign="top">1268</td>
+<td class="normal" valign="top">1469</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">69</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-12</td>
+<td class="normal" valign="top">6627</td>
+<td class="normal" valign="top">4.309999943</td>
+<td class="normal" valign="top">4.309999943</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4.309999943</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">89</td>
+<td class="normal" valign="top">604</td>
+<td class="normal" valign="top">706</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">70</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-12</td>
+<td class="normal" valign="top">8163</td>
+<td class="normal" valign="top">5.30999994277954</td>
+<td class="normal" valign="top">5.30999994277954</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">5.30999994277954</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">146</td>
+<td class="normal" valign="top">1294</td>
+<td class="normal" valign="top">1432</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">71</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-13</td>
+<td class="normal" valign="top">7007</td>
+<td class="normal" valign="top">4.55000019073486</td>
+<td class="normal" valign="top">4.55000019073486</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4.55000019073486</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">148</td>
+<td class="normal" valign="top">1292</td>
+<td class="normal" valign="top">1411</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">72</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-14</td>
+<td class="normal" valign="top">9107</td>
+<td class="normal" valign="top">5.92000007629395</td>
+<td class="normal" valign="top">5.92000007629395</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">5.90999984741211</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">236</td>
+<td class="normal" valign="top">1204</td>
+<td class="normal" valign="top">1572</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">73</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-15</td>
+<td class="normal" valign="top">1510</td>
+<td class="normal" valign="top">0.980000019073486</td>
+<td class="normal" valign="top">0.980000019073486</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.970000028610229</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">96</td>
+<td class="normal" valign="top">1344</td>
+<td class="normal" valign="top">1344</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">74</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-16</td>
+<td class="normal" valign="top">5370</td>
+<td class="normal" valign="top">3.49000000953674</td>
+<td class="normal" valign="top">3.49000000953674</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.49000000953674</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">176</td>
+<td class="normal" valign="top">1264</td>
+<td class="normal" valign="top">1463</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">75</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-17</td>
+<td class="normal" valign="top">6175</td>
+<td class="normal" valign="top">4.05999994277954</td>
+<td class="normal" valign="top">4.05999994277954</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.02999997138977</td>
+<td class="normal" valign="top">1.51999998092651</td>
+<td class="normal" valign="top">1.49000000953674</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">127</td>
+<td class="normal" valign="top">1276</td>
+<td class="normal" valign="top">1554</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">76</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-18</td>
+<td class="normal" valign="top">10536</td>
+<td class="normal" valign="top">7.40999984741211</td>
+<td class="normal" valign="top">7.40999984741211</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.15000009536743</td>
+<td class="normal" valign="top">0.620000004768372</td>
+<td class="normal" valign="top">4.61999988555908</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">202</td>
+<td class="normal" valign="top">1214</td>
+<td class="normal" valign="top">1604</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">77</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-19</td>
+<td class="normal" valign="top">2916</td>
+<td class="normal" valign="top">1.89999997615814</td>
+<td class="normal" valign="top">1.89999997615814</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.89999997615814</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">141</td>
+<td class="normal" valign="top">1299</td>
+<td class="normal" valign="top">1435</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">78</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-20</td>
+<td class="normal" valign="top">4974</td>
+<td class="normal" valign="top">3.23000001907349</td>
+<td class="normal" valign="top">3.23000001907349</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">3.23000001907349</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">151</td>
+<td class="normal" valign="top">1289</td>
+<td class="normal" valign="top">1446</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">79</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-21</td>
+<td class="normal" valign="top">6349</td>
+<td class="normal" valign="top">4.13000011444092</td>
+<td class="normal" valign="top">4.13000011444092</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4.1100001335144</td>
+<td class="normal" valign="top">0.0199999995529652</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">186</td>
+<td class="normal" valign="top">1254</td>
+<td class="normal" valign="top">1467</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">80</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-22</td>
+<td class="normal" valign="top">4026</td>
+<td class="normal" valign="top">2.61999988555908</td>
+<td class="normal" valign="top">2.61999988555908</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.59999990463257</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">199</td>
+<td class="normal" valign="top">1241</td>
+<td class="normal" valign="top">1470</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">81</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-23</td>
+<td class="normal" valign="top">8538</td>
+<td class="normal" valign="top">5.55000019073486</td>
+<td class="normal" valign="top">5.55000019073486</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">5.53999996185303</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">227</td>
+<td class="normal" valign="top">1213</td>
+<td class="normal" valign="top">1562</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">82</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-24</td>
+<td class="normal" valign="top">6076</td>
+<td class="normal" valign="top">3.95000004768372</td>
+<td class="normal" valign="top">3.95000004768372</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.14999997615814</td>
+<td class="normal" valign="top">0.910000026226044</td>
+<td class="normal" valign="top">1.88999998569489</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">16</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">185</td>
+<td class="normal" valign="top">1221</td>
+<td class="normal" valign="top">1617</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">83</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-25</td>
+<td class="normal" valign="top">6497</td>
+<td class="normal" valign="top">4.21999979019165</td>
+<td class="normal" valign="top">4.21999979019165</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">4.19999980926514</td>
+<td class="normal" valign="top">0.0199999995529652</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">202</td>
+<td class="normal" valign="top">1238</td>
+<td class="normal" valign="top">1492</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">84</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-26</td>
+<td class="normal" valign="top">2826</td>
+<td class="normal" valign="top">1.8400000333786</td>
+<td class="normal" valign="top">1.8400000333786</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.83000004291534</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">140</td>
+<td class="normal" valign="top">1300</td>
+<td class="normal" valign="top">1402</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">85</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-27</td>
+<td class="normal" valign="top">8367</td>
+<td class="normal" valign="top">5.44000005722046</td>
+<td class="normal" valign="top">5.44000005722046</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.11000001430511</td>
+<td class="normal" valign="top">1.87000000476837</td>
+<td class="normal" valign="top">2.46000003814697</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">36</td>
+<td class="normal" valign="top">154</td>
+<td class="normal" valign="top">1233</td>
+<td class="normal" valign="top">1670</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">86</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-28</td>
+<td class="normal" valign="top">2759</td>
+<td class="normal" valign="top">1.78999996185303</td>
+<td class="normal" valign="top">1.78999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.200000002980232</td>
+<td class="normal" valign="top">1.60000002384186</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">5</td>
+<td class="normal" valign="top">115</td>
+<td class="normal" valign="top">1320</td>
+<td class="normal" valign="top">1401</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">87</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-29</td>
+<td class="normal" valign="top">2390</td>
+<td class="normal" valign="top">1.54999995231628</td>
+<td class="normal" valign="top">1.54999995231628</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.54999995231628</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">150</td>
+<td class="normal" valign="top">1290</td>
+<td class="normal" valign="top">1404</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">88</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-04-30</td>
+<td class="normal" valign="top">6474</td>
+<td class="normal" valign="top">4.30000019073486</td>
+<td class="normal" valign="top">4.30000019073486</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.899999976158142</td>
+<td class="normal" valign="top">1.27999997138977</td>
+<td class="normal" valign="top">2.11999988555908</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">224</td>
+<td class="normal" valign="top">1182</td>
+<td class="normal" valign="top">1655</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">89</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-01</td>
+<td class="normal" valign="top">36019</td>
+<td class="normal" valign="top">28.0300006866455</td>
+<td class="normal" valign="top">28.0300006866455</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">21.9200000762939</td>
+<td class="normal" valign="top">4.19000005722046</td>
+<td class="normal" valign="top">1.9099999666214</td>
+<td class="normal" valign="top">0.0199999995529652</td>
+<td class="normal" valign="top">186</td>
+<td class="normal" valign="top">63</td>
+<td class="normal" valign="top">171</td>
+<td class="normal" valign="top">1020</td>
+<td class="normal" valign="top">2690</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">90</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-02</td>
+<td class="normal" valign="top">7155</td>
+<td class="normal" valign="top">4.92999982833862</td>
+<td class="normal" valign="top">4.92999982833862</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0.860000014305115</td>
+<td class="normal" valign="top">0.589999973773956</td>
+<td class="normal" valign="top">3.47000002861023</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">166</td>
+<td class="normal" valign="top">1261</td>
+<td class="normal" valign="top">1497</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">91</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-03</td>
+<td class="normal" valign="top">2100</td>
+<td class="normal" valign="top">1.37000000476837</td>
+<td class="normal" valign="top">1.37000000476837</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.3400000333786</td>
+<td class="normal" valign="top">0.0199999995529652</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">96</td>
+<td class="normal" valign="top">1344</td>
+<td class="normal" valign="top">1334</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">92</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-04</td>
+<td class="normal" valign="top">2193</td>
+<td class="normal" valign="top">1.42999994754791</td>
+<td class="normal" valign="top">1.42999994754791</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.41999995708466</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">118</td>
+<td class="normal" valign="top">1322</td>
+<td class="normal" valign="top">1368</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">93</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-05</td>
+<td class="normal" valign="top">2470</td>
+<td class="normal" valign="top">1.61000001430511</td>
+<td class="normal" valign="top">1.61000001430511</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.58000004291534</td>
+<td class="normal" valign="top">0.0199999995529652</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">117</td>
+<td class="normal" valign="top">1323</td>
+<td class="normal" valign="top">1370</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">94</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-06</td>
+<td class="normal" valign="top">1727</td>
+<td class="normal" valign="top">1.12000000476837</td>
+<td class="normal" valign="top">1.12000000476837</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.12000000476837</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">102</td>
+<td class="normal" valign="top">1338</td>
+<td class="normal" valign="top">1341</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">95</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-07</td>
+<td class="normal" valign="top">2104</td>
+<td class="normal" valign="top">1.37000000476837</td>
+<td class="normal" valign="top">1.37000000476837</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.37000000476837</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">182</td>
+<td class="normal" valign="top">1258</td>
+<td class="normal" valign="top">1474</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">96</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-08</td>
+<td class="normal" valign="top">3427</td>
+<td class="normal" valign="top">2.23000001907349</td>
+<td class="normal" valign="top">2.23000001907349</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.22000002861023</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">152</td>
+<td class="normal" valign="top">1288</td>
+<td class="normal" valign="top">1427</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">97</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-09</td>
+<td class="normal" valign="top">1732</td>
+<td class="normal" valign="top">1.12999999523163</td>
+<td class="normal" valign="top">1.12999999523163</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.12999999523163</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">91</td>
+<td class="normal" valign="top">1349</td>
+<td class="normal" valign="top">1328</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">98</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-10</td>
+<td class="normal" valign="top">2969</td>
+<td class="normal" valign="top">1.92999994754791</td>
+<td class="normal" valign="top">1.92999994754791</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.91999995708466</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">139</td>
+<td class="normal" valign="top">1301</td>
+<td class="normal" valign="top">1393</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">99</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-11</td>
+<td class="normal" valign="top">3134</td>
+<td class="normal" valign="top">2.03999996185303</td>
+<td class="normal" valign="top">2.03999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">2.03999996185303</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">112</td>
+<td class="normal" valign="top">1328</td>
+<td class="normal" valign="top">1359</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">100</td>
+<td class="normal" valign="top">1624580081</td>
+<td class="normal" valign="top">2016-05-12</td>
+<td class="normal" valign="top">2971</td>
+<td class="normal" valign="top">1.92999994754791</td>
+<td class="normal" valign="top">1.92999994754791</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">1.91999995708466</td>
+<td class="normal" valign="top">0.00999999977648258</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">0</td>
+<td class="normal" valign="top">107</td>
+<td class="normal" valign="top">890</td>
+<td class="normal" valign="top">1002</td>
+</tr>
+</tbody></table>
+</div>
+</body></html>
